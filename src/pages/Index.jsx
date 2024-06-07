@@ -5,18 +5,18 @@ const Index = () => {
   return (
     <Container centerContent maxW="container.md" height="100vh" display="flex" flexDirection="column" justifyContent="center" alignItems="center">
       <VStack spacing={6}>
-        <Heading as="h1" size="2xl" textAlign="center">Welcome to the Ultimate Online Casino</Heading>
-        <Image src="/images/casino-banner.jpg" alt="Casino Banner" borderRadius="md" />
-        <Text fontSize="lg" textAlign="center">Experience the thrill of real casino games from the comfort of your home.</Text>
+        <Heading as="h1" size="2xl" textAlign="center">Добро пожаловать в лучший онлайн-казино</Heading>
+        <Image src="/images/casino-banner.jpg" alt="Баннер казино" borderRadius="md" />
+        <Text fontSize="lg" textAlign="center">Испытайте азарт настоящих казино-игр, не выходя из дома.</Text>
         <Box display="flex" justifyContent="space-around" width="100%">
           <Button leftIcon={<FaDice />} colorScheme="teal" variant="solid" size="lg">
-            Play Dice
+            Играть в кости
           </Button>
           <Button leftIcon={<FaMoneyBillWave />} colorScheme="teal" variant="solid" size="lg">
-            Win Big
+            Выигрывайте крупно
           </Button>
           <Button leftIcon={<FaGamepad />} colorScheme="teal" variant="solid" size="lg">
-            More Games
+            Больше игр
           </Button>
         </Box>
       </VStack>
